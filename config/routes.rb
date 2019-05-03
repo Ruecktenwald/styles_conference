@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  #root 'conferences#index'
+  root 'conferences#index'
 
   get 'index' => 'conferences#index'
   get 'speakers' => 'conferences#speakers'
